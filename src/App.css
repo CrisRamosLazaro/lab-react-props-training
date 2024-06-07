@@ -1,0 +1,125 @@
+.id-card {
+    border: 1px solid black;
+    display: flex;
+    margin: 1em;
+    padding: 0.25em;
+    max-width: 80vw;
+}
+
+.id-card-picbox {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5em;
+}
+
+.id-card-picbox img {
+    width: 100%;
+    height: auto;
+}
+
+.id-card p {
+    margin: 0;
+}
+
+.greeting-box {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.25em;
+    max-width: 80vw;
+}
+
+.greeting-box h1 {
+    margin: 0;
+    font-weight: 500;
+    padding-left: 0.5em;
+}
+
+.credit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 250px;
+    min-width: 250px;
+    height: 125px;
+}
+
+.cc-div {
+    display: flex;
+    justify-content: left;
+    margin: 1em;
+    padding-right: 5em;
+    gap: 4vw;
+
+}
+
+.cc-type {
+    display: flex;
+    justify-content: end;
+    padding-right: 0.5em;
+}
+
+.cc-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    font-size: 1.5em;
+}
+
+.cc-data {
+    display: flex;
+}
+
+.cc-data p {
+    margin: 0 1.25em 0 0.5em;
+    font-size: 0.8em;
+}
+
+.ratings-div {
+    margin: 1em;
+}
+
+.rating-stars {
+    font-size: 2em;
+    margin: 0;
+}
+
+.driver-card {
+    background-color: royalblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    max-width: 70vw;
+}
+
+.driver-card-picbox {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.driver-card-picbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.driver-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.driver-card-info p,
+.driver-card-info h2 {
+    margin: 0;
+    color: white;
+}
